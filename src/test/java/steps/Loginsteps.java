@@ -11,6 +11,7 @@ public class Loginsteps {
 
     @And("user is on login page")
     public void userIsOnLoginPage() {
+        System.out.println("User is on log on page");
     }
 
     @When("user enters {} and {}")
